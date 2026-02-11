@@ -3,7 +3,9 @@
     "allow": [
       "Bash(node -e \"\nconst fs = require\\(''fs''\\);\nconst { execSync } = require\\(''child_process''\\);\n// .docx is a zip, use PowerShell to extract\n\")",
       "Bash(powershell:*)",
-      "Bash(start \"\" \"D:\\\\VSCode\\\\terrafilia.ge\\\\index.html\")"
+      "Bash(start \"\" \"D:\\\\VSCode\\\\terrafilia.ge\\\\index.html\")",
+      "Bash(gh repo edit:*)",
+      "Bash(gh api:*)"
     ]
   }
 }
