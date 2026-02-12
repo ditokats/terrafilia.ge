@@ -144,6 +144,63 @@ nav.scrolled {
     width: 100%;
 }
 
+.nav-shop {
+    border: 1px solid var(--color-accent);
+    padding: 0.35rem 1rem !important;
+    border-radius: 2px;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease !important;
+}
+
+.nav-shop::after {
+    display: none !important;
+}
+
+.nav-shop:hover {
+    background: var(--color-accent);
+    color: var(--color-bg) !important;
+}
+
+.mobile-shop {
+    border: 1px solid var(--color-accent);
+    padding: 0.5rem 1.5rem;
+    border-radius: 2px;
+    color: var(--color-accent) !important;
+    transition: background 0.3s ease, color 0.3s ease !important;
+}
+
+.mobile-shop:hover {
+    background: var(--color-accent);
+    color: var(--color-bg) !important;
+}
+
+.wine-shop-btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-family: var(--font-en);
+    font-size: 0.85rem;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    text-decoration: none;
+    border: 1px solid var(--color-accent);
+    padding: 0.6rem 2rem;
+    border-radius: 2px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.wine-shop-btn:hover {
+    background: var(--color-accent);
+    color: var(--color-bg);
+}
+
+.social-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.1em;
+    margin-right: 0.3em;
+}
+
 .nav-hamburger {
     display: none;
     flex-direction: column;
@@ -870,6 +927,7 @@ footer p {
 .mobile-nav.open a:nth-child(3) { transition-delay: 0.2s; }
 .mobile-nav.open a:nth-child(4) { transition-delay: 0.25s; }
 .mobile-nav.open a:nth-child(5) { transition-delay: 0.3s; }
+.mobile-nav.open a:nth-child(6) { transition-delay: 0.35s; }
 
 .mobile-nav .lang-toggle {
     opacity: 0;
